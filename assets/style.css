@@ -6,6 +6,21 @@ body {
   font-family: sans-serif;
 }
 
+.display {
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #333333;
+  border: 1px solid black;
+  font-size: 2em;
+}
+
+.operator,
+.negative,
+.equals {
+  background: orange;
+}
+
 .flex-container-column {
    display: flex;
    flex-direction: column;
